@@ -3,22 +3,22 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   labels:
-    app: argo1
-  name: argo1
+    app: canary1
+  name: canary1
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: argo1
+      app: canary1
   strategy: {}
   template:
     metadata:
       creationTimestamp: null
       labels:
-        app: argo1
+        app: canary1
     spec:
       containers:
-      - image: imran90306/javacal:w1
-        name: javacal
+      - image: imran90306/vprofile:v1
+        name: vprofile
         resources: {}
 status: {}
