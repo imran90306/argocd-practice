@@ -18,7 +18,7 @@ spec:
         app: canary1
     spec:
       containers:
-      - image: imran90306/loginpage:v1
+      - image: imran90306/loginpage:v2
         name: vprofile
         resources: {}
 status: {}
