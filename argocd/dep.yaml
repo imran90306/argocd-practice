@@ -6,7 +6,7 @@ metadata:
     app: canary1
   name: canary1
 spec:
-  replicas: 2
+  replicas: 4
   selector:
     matchLabels:
       app: canary1
